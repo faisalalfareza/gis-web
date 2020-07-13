@@ -1,0 +1,35 @@
+.tab-content .tab-pane .tag-item a {
+    display: inline-block;
+    margin: 4px;
+    padding: 3px 15px;
+    background-color: rgba(149, 165, 166, 0.2);
+    color: rgba(45, 52, 54, 0.4);
+    font-weight: 700;
+    border-radius: 5px;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.tab-content .tab-pane .category-major {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 700;
+    font-size: 0.7rem;
+    color: #32de7a;
+}
+
+.form-group.footer .btn {
+    font-weight: bold !important;
+    letter-spacing: 1px !important;
+}
+.btn { cursor: pointer !important }
+.btn.btn-primary { border: 0 !important }
+
+.dropup .btn.btn-light { background-color: #fff !important;border-radius: 0 !important;height: 52px !important;border: 1px solid #ced4da !important; }
+.dropup .dropdown-toggle::after { content: "↓" !important;border: 0 !important; }
+.form-group { text-align: left !important; }
+
+detail tr th, detail tr td {
+    padding: 8px !important;
+}
